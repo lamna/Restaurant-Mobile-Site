@@ -1,0 +1,170 @@
+#page1,#page2,#page4,#page5,#page6{
+	background-image: url("image/image2.jpg ");
+}
+
+#collapse{
+	margin-left:50px;
+	margin-right:50px;
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	background-color:black;
+}
+
+#about{
+	margin-left:50px;
+	margin-right:50px;
+}
+
+#list{
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	background-color:black;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+#list a:hover{
+	background-color:#CC3300;
+}
+
+#logo{
+	color:red;
+	font-family:Goudy Stout;		
+}
+
+.first_letter{
+	color:orange;
+	font-size:55px;
+}
+
+#head{
+	background-color:black;
+}
+
+#foot{
+	background-color:black;
+	color:white;
+}
+
+#foot p{
+	margin-top:60px;
+}
+
+#tableReservation{
+	margin-left:50px;
+	margin-right:50px;	
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	background-color:black;
+}
+
+label{
+	color:white;	
+}
+
+h3{
+	color:white;
+}
+
+#submit{
+	background-color:#CC3300;
+	color:white;
+}
+
+#regLogin{
+	margin-left:50px;
+	margin-right:50px;	
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	background-color:black;
+}
+
+#registerButton{
+	background-color:#CC3300;
+	color:white;
+}
+
+.left{
+	float:left;
+}
+
+#location{
+	margin-left:50px;
+	margin-right:50px;
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	background-color:black;
+	color:white;
+}
+
+h3{
+	text-align:center;	
+	text-transform: uppercase;
+}
+
+h2{
+	text-align:center;
+}
+
+h5{
+	text-align:center;	
+}
+
+h6{
+	text-align:center;
+	color:#663300;
+	margin-right:150px;	
+}
+
+h4{
+	font-size:70px;
+}
+
+
+#logo_nav{
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	border-bottom:5px solid orange;
+}
+
+
+#sidebar{
+	margin-left:0px;
+	margin-top:60px;
+	background: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,1));
+	color:white;
+	font-family:Lucida Bright;
+	width:300px;
+}
+
+
+h1{
+	text-align:center;
+}
+
+p{
+	text-align:center;
+}
+
+#frame{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

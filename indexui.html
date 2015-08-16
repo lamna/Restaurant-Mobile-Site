@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Spice Garden</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="indexui.css">				
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>		
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">		
+		<script type='text/javascript' src='indexui.js'></script>
+		
+	</head>
+	<body>
+		<div data-role="page"  id="page1" >
+				<div data-role="header"  id="head">					
+					<div id="logo">
+						<h1 ><span class="first_letter">S</span>PICE  <span class="first_letter">G</span>ARDEN</h1>							
+					</div>				
+				</div>			
+			<div role="main"  class="mainui-content">					
+				<div data-role="listview" id="list" >
+						<ul>
+							 <li class="active"><a href="#page1" data-transition="pop" class="ui-btn ui-icon-home ui-btn-icon-left " title="Home">HOME</a></li>
+							 <li><a href="#page2" data-transition="pop" class="ui-btn ui-icon-carat-d ui-btn-icon-left" title="Menu">MENU</a></li>
+							 <li><a href="#page3" data-transition="pop" class="ui-btn ui-icon-info ui-btn-icon-left" title="About">ABOUT</a></li>
+							 <li><a href="#page4" data-transition="pop" title="Location/Hours" class="ui-btn ui-icon-location ui-btn-icon-left">LOCATION / HOURS</a></li>
+							 <li><a href="#page5" data-transition="pop" title="Reservation" class="ui-btn ui-icon-calendar ui-btn-icon-left" id="Reservation">RESERVATION</a></li>
+							 <li><a href="#page6" data-transition="pop" title="register" class="ui-btn ui-icon-action ui-btn-icon-left" id="Reservation">REGISTER / LOGIN</a></li>
+						</ul>
+				</div>
+			</div><br>			
+			<div data-role="footer" id="foot">
+				<div data-role= "header ">				
+					<h5>© 2015 Spice Garden Indian cuisine. All rights reserved.</h5>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Facebook</a>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Twitter</a>		
+				</div>
+			</div>					
+		</div><!--end of div page1    --->
+
+		<div  data-role="page" id="page2">
+				<div data-role="header" id="head" >					
+					<div id="logo">
+					  <a href="#page1"  data-transition="pop" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+						<h1 ><span class="first_letter">S</span>PICE  <span class="first_letter">G</span>ARDEN</h1>  					
+					</div>				
+				</div>
+				<div role="main" class="mainui-content" id="collapse">					
+						<div  data-role="collapsible" >
+							<h3>APPETIZERS</h3>
+								<div data-role="collapsible"  >
+											<h3>VEGETABLE SAMOSA  $2.99</h3> 
+									  <div>
+											<p>
+												Crispy turnovers filled with potatoes, peas & vegetables    
+											</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3 >GOBI MANCHURIAN $6.99</h3>
+									  <div>
+										<p>
+											Batter fried tender baby corn tossed in tangy garlic sauce 
+										</p>
+									  </div>
+								</div>
+								<div data-role="collapsible">
+											<h3>CHILLI CHICKEN  $8.99</h3>
+									  <div>
+										<p>
+											Slightly battered and deep fried boneless chicken pieces, cooked with onions, jalapenos, spices and variety of sauces
+										</p>
+									  </div>
+								</div>
+								<div data-role="collapsible">
+											<h3>FISH FRY  $10.99</h3>
+									  <div>
+											<p>
+											Fish cut pieces battered and marinated with spices, yogurt, fried to crispy taste with onions and jalapeños
+											</p>
+									  </div>
+								</div>
+						</div>					
+						<div   data-role="collapsible" >
+							<h3>BIRYANI</h3>
+								<div  data-role="collapsible" id="biryani" class="accordian">
+											<h3>VEG DUM BIRYANI $10.99</h3> 
+									  <div>
+											<p>
+												Long grain basmati rice flavored with saffron and cooked with a delicate blend of exotic spices and herbs and vegetables, served with raita and curry sauce)    
+											</p>
+									  </div>
+								</div>
+								<div data-role="collapsible">
+										<h3>CHICKEN DUM BIRYANI $11.99</h3>
+									  <div>
+										<p>
+											Long grain basmati rice flavored with saffron and cooked with a delicate blend of exotic spices and herbs and chicken, served with raita and curry sauce) 
+										</p>
+									  </div>
+								</div>
+								<div data-role="collapsible">
+											<h3>MUTTON DUM BIRYANI $13.99</h3>
+									  <div>
+										<p>
+											Long grain basmati rice flavored with saffron and cooked with a delicate blend of exotic spices and herbs and mutton, served with raita and curry sauce)
+										</p>
+									  </div>
+								</div>
+								<div data-role="collapsible">
+											<h3>SHRIMP DUM BIRYANI $12.99</h3>
+									  <div>
+											<p>
+											Long grain basmati rice flavored with saffron and cooked with a delicate blend of exotic spices and herbs and prawns , served with raita and curry sauce)
+											</p>
+									  </div>
+								</div>									
+						</div>					
+						<div  data-role="collapsible">
+								<h3>VEG CURRY</h3>
+								<div   data-role="collapsible" id="vegCurry" >
+											<h3>DAL MAKHANI $7.99</h3> 
+									  <div>
+											<p>
+												Indian Lentils cooked in slow flame with fresh vegetable, seasoned with cumin and mustards.    
+											</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3> MUTTER PANEER $8.99</h3>
+									  <div>
+										<p>
+											Fresh green peas cooked with home-made cheese cubes, tomato sauce, spices and cream 
+										</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3>MIX VEG CURRY $7.99</h3>
+									  <div>
+										<p>
+											Mixture of Vegetables cooked with spices,tomatoes and onions
+										</p>
+									  </div>
+								</div>
+						</div>					
+						<div  data-role="collapsible" >
+							<h3>NON-VEG CURRY</h3>
+								<div  data-role="collapsible" >
+											<h3>CHICKEN CURRY $9.99</h3> 
+									  <div>
+											<p>
+												Boneless chicken thigh cubes cooked with tomatoes, onions and exotic spices    
+											</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3>MUTTON CURRY $11.99</h3>
+									  <div>
+										<p>
+											Boneless mutton cooked with tomato & onion sauce and garnished with egg 
+										</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3>FISH CURRY $10.99</h3>
+									  <div>
+										<p>
+											Cubes of tilapia fish cooked in tamarind and onion gravy with special spices.
+										</p>
+									  </div>
+								</div>
+						</div>				
+						<div  data-role="collapsible" >
+							<h3>BREAD</h3>
+								<div  data-role="collapsible" id="bread" >
+											<h3>TANDOORI ROTI $2</h3>
+									  <div>
+										<p>
+											wheat flour mixed with oil, water, pressed thin and cooked in tandoori oven 
+										</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3>CHAPATI $1</h3>
+									  <div>
+										<p>
+											Traditional Indian food prepared with wheat.
+										</p>
+									  </div>
+								</div>
+								<div data-role="collapsible">
+											<h3>NAAN $2</h3> 
+									  <div>
+											<p>
+												All purpose flour mixed with oil, water, pressed thin and cooked in tandoori oven  
+											</p>
+									  </div>
+								</div>
+						</div>					
+						<div  data-role="collapsible" >
+							<h3>DESSERTS</h3>
+								<div  data-role="collapsible" id="dessert" >
+											<h3>GULAB JAMUN  $2.99</h3> 
+									  <div>
+											<p>
+												Juicy milk balls dipped in honey syrup Rice in thick milk with almonds, nuts, raisins 
+											</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">	  
+											<h3>CARROT HALWA $3.99</h3>
+									  <div>
+										<p>
+											Grated carrots cooked in milk and sugar 
+										</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3>RASMALAI $4.99</h3>
+									  <div>
+										<p>
+											Dumplings made from cottage cheese soaked in sweetened, thickened milk delicately flavoured.
+										</p>
+									  </div>
+								</div>
+								<div  data-role="collapsible">
+											<h3>PAYASAM/KHEER $4.99</h3>
+									  <div>
+										<p>
+											Dumplings made from cottage cheese soaked in sweetened, thickened milk delicately flavoured.
+										</p>
+									  </div>
+								</div>
+						</div>					
+				</div><br><br>
+			<div data-role="footer" id="foot">
+				<div data-role= "header ">				
+					<h5>© 2015 Spice Garden Indian cuisine. All rights reserved.</h5>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Facebook</a>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Twitter</a>		
+				</div>
+			</div>		
+		</div>	<!--- end of page2 --> 
+		<div  data-role="page" id="page3">
+				<div data-role="header" id="head" >					
+					<div id="logo">
+					  <a href="#page1" data-transition="pop" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+						<h1 ><span class="first_letter">S</span>PICE  <span class="first_letter">G</span>ARDEN</h1>  					
+					</div>				
+				</div>
+				<div role="main" class="mainui-content" id="about">					
+					<div >
+						<h2>ABOUT SPICE GARDEN</h2>
+						<p>Nestled in the Silicon Valley suburbs of Sanjose is our Malabar kitchen, Spice Garden. It was created by a food loving crew of Western Indians on a passion to share their family recipes with our clienteles to have a feel of 'kitchen away from home' while dining. Along with the great family recipes offered at  Spice Garden, is the at home feeling you get the moment you walk in. You will be greeted with a warm welcome and instantly feel as if you are in a quaint Malabar villa. The warm welcome you received at the door will be continued throughout your stay because of our dedicated hospitality. We want to encourage you to come, have a meal with us and experience our Malabar kitchen. It is our hope that you will make it your own "kitchen away from home".</p>
+						<p>Our goals are simple - to furnish the finest quality products in a comfortable atmosphere with professional service.</p>						
+						<h2>Malabar & Travancore Cuisine</h2>
+						<h3>A brief history</h3>							
+						<p>For over 2000 years, Kerala has been visited by ocean-goers, including traders from Greece, Rome, the eastern Mediterranean, Arab countries, and Europe. Thus, Kerala cuisine is a blend of indigenous dishes and foreign dishes adapted to Kerala tastes. Coconuts grow in abundance in Kerala, and consequently, grated coconut and coconut milk are widely used in dishes and curries as a thickener and flavoring ingredient. Kerala's long coastline, numerous rivers and backwater networks, and strong fishing industry have contributed to many sea- and river-food based dishes. Rice is grown in abundance, and could be said, along with tapioca (manioc/cassava),to be the main starch ingredient used in Kerala food. Having been a major production area of spices for thousands of years, black pepper, cardamom, cloves, ginger, and cinnamon play a large part in its food.</p>					
+					</div>					
+				</div>
+			<div data-role="footer" id="foot">
+				<div data-role= "header ">				
+					<h5>© 2015 Spice Garden Indian cuisine. All rights reserved.</h5>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Facebook</a>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Twitter</a>		
+				</div>
+			</div>	
+		</div> <!--- end of page3 -->
+		<div  data-role="page" id="page4">
+				<div data-role="header" id="head">					
+					<div id="logo">
+					  <a href="#page1" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+						<h1 ><span class="first_letter">S</span>PICE  <span class="first_letter">G</span>ARDEN</h1>  					
+					</div>				
+				</div>
+				<div role="main" class="mainui-content" id="location">					
+					<div >
+						<h2>LOCATION</h2>
+							<P>2055 Hamilton Ave,<br>SanJose ,CA 95125 </P> 
+							<p>Phone:408-237-6767<br>
+					</div>
+					<div>
+						<h2>LUNCH HOURS</h2>
+							<p>Daily:11.30am-2.30pm </p>							 
+						<h2>DINNER HOURS</h2>
+							<p>Sunday-Thursday: 4pm - 9pm <br>
+							Friday-Saturday: 4pm - 11pm </p>						 
+					</div>					
+					<div  id="frame">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.9862501693406!2d-121.92755119999998!3d37.29545969999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e34c6dd8bab6f%3A0x6da357c49a98f7eb!2s2065+Hamilton+Ave%2C+San+Jose%2C+CA+95125!5e0!3m2!1sen!2sus!4v1436493530930" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>							
+					</div>	
+				</div> <br>
+			<div data-role="footer" id="foot">
+				<div data-role= "header ">				
+					<h5>© 2015 Spice Garden Indian cuisine. All rights reserved.</h5>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-right">Follow us On Facebook</a>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Twitter</a>		
+				</div>
+			</div>	
+		</div> <!--- end of page4 -->
+		<div  data-role="page" id="page5">
+				<div data-role="header" id="head">					
+					<div id="logo">
+					  <a href="#page1" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+						<h1 ><span class="first_letter">S</span>PICE  <span class="first_letter">G</span>ARDEN</h1>  					
+					</div>				
+				</div>
+				<div role="main" class="mainui-content" id="tableReservation">				
+					<div  id="reservation1">
+						<h3>MAKE A RESERVATION</h3>
+						<form  id="myform" action="" method="post">							 
+							 <div >
+								 <label for="date">Date:</label>
+								 <input type="date"  id="datepicker" title="Please select the Date" required>
+							 </div>
+							 <div >
+								 <label for="time">Time:</label>
+								 <input type="time"  id="timepicker" title="Please select the Time" required>
+							 </div>						
+							<div >
+								<label for="number">Party Size</label>
+								<select name="number"  id="number" >
+										<option >1</option>
+										<option selected="selected">2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+								</select > 
+							</div><br><br>
+							<div >
+								 <label for="Fname">First Name</label>
+								 <input type="text"  id="Fname" placeholder="Enter First Name" required >
+							 </div>
+							 <div >
+								 <label for="Lname">Last Name</label>
+								 <input type="text"  id="Lname" placeholder="Enter Last Name" >
+							 </div>
+							 <div >
+								 <label for="phone">Phone</label>
+								 <input type="tel"  id="phone"  placeholder="555-555-5555" >
+							 </div>
+							 <div >
+								 <label for="email">Email </label>
+								 <input type="email"  id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required placeholder="Enter a valid email address">
+							 </div><br>
+								<button type="submit"  id="submit">SUBMIT INFORMATION</button>						
+						</form>							
+					</div>		
+				</div><br><br>					
+			<div data-role="footer" id="foot">
+				<div data-role= "header ">				
+					<h5>© 2015 Spice Garden Indian cuisine. All rights reserved.</h5>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Facebook</a>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Twitter</a>		
+				</div>
+			</div>	
+		</div> <!--- end of page5 -->
+		<div  data-role="page" id="page6">
+				<div data-role="header" id="head">					
+					<div id="logo">
+					  <a href="#page1" class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">HOME</a>
+						<h1 ><span class="first_letter">S</span>PICE  <span class="first_letter">G</span>ARDEN</h1>  					
+					</div>				
+				</div>
+				<div role="main" class="mainui-content" id="regLogin">
+					<div  id='box' style='display:none;' >
+						<form role="form"  name="form3" id="form3" action="" method="get">
+							<div class="form-group">
+								<label for="email">Enter Your Email Address: </label>
+								<input type="email"  name="email" id="form3_email" >
+							</div>
+							<div class="form-group">
+								<label for="pass1"> Your Password:</label>
+								<input type="password"  name="password" id="form3_password" >
+							</div>
+							<button type="submit"  name="submit" id="form3_submit">Login</button>
+						</form>									
+					</div>
+					<div >
+						<h3>Create an Account  /  <a href= '#box' id='login'>LOGIN</a></h3>
+						
+						<p>Enjoy your dining experience at Spice Graden even more. Set up a Spice Garden account and you'll be the first to know what's going on at your Spice Garden.</p>					
+							<form role="form"  name="form2" id="form2" action="" method="get">
+								<div class="form-group">
+									 <label for="Fname">First Name</label>
+									 <input type="text"  name="fname"  id="form2_fname" placeholder="Enter First Name"  >
+								 </div>
+								 <div id="invalid_1"></div><br> <!---input fname   --->
+								 <div class="form-group">
+									 <label for="Lname">Last Name</label>
+									 <input type="text"  name="lname" id="form2_lname" placeholder="Enter Last Name" >
+								 </div>
+								 <div class="form-group">
+									 <label for="pass1">Password</label>
+									 <input type="password"  name="pass1" id="form2_pass1"  required>
+								 </div>
+								 <div id="invalid_3"></div><br>
+								 <div class="form-group">
+									 <label for="pass2">Confirm Password</label>
+									 <input type="password"  name="pass2" id="form2_pass2" required >
+								 </div>
+								 <div id="invalid_4"></div><br>
+								 <div class="form-group">
+									 <label for="phone">Phone #</label>
+									 <input type="tel"  name="phone" id="form2_phone" required>
+								 </div>
+								 <div id="invalid_2"></div><br> <!--- confirmation password   --->
+								 <div class="form-group">
+									 <label for="email">Email Address </label>
+									 <input type="email"  name="email"  id="form2_email" placeholder="Enter a valid email address" required>
+								 </div><br>
+									<button type="submit"   name="submit"  id="registerButton">REGISTER</button>					
+							</form>																			
+					</div>		
+				</div><br><br>					
+			<div data-role="footer" id="foot">
+				<div data-role= "header ">				
+					<h5>© 2015 Spice Garden Indian cuisine. All rights reserved.</h5>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Facebook</a>
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Follow us On Twitter</a>		
+				</div>
+			</div>	
+		</div> <!--- end of page6 -->
+	</body>
+</html>
