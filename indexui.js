@@ -7,6 +7,7 @@ $(document).on('ready', function(){
 			html: ""
 		});	
 	}
+	
 	function stopLoad(){       
 		$.mobile.loading( 'hide', {
 			text: 'loading',
@@ -17,9 +18,11 @@ $(document).on('ready', function(){
 		$.mobile.changePage('#page2');
     }
     
-	$('#page2').on('click' ,function(){
+	$('#page2').on('pageshow' ,function(){
 		showLoad();
-		stopLoad();
+		setTimeout(function(){
+			stopLoad();
+		}, 1000);
 	});
 	
 
